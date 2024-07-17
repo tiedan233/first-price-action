@@ -1,0 +1,19 @@
+{{ extends 'global/Page.html' }}
+{{ block title }}Bid{{ endblock }}
+
+{{ block content }}
+
+<p>
+    The value of the item is  {{ player.item_value }}.
+    
+</p>
+
+<p>
+    Please make your bid now.
+</p>
+
+{{ formfields }}
+
+{{ next_button }}
+
+{{ endblock }}
